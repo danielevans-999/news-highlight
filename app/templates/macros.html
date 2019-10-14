@@ -2,7 +2,7 @@
 {% for new in news_list %}
 
 <div class="col-sm-12 col-md-6 col-lg-4">
-    <h4>{{new.category}}</h4>
+    <span><i>Category:-</i> <small>{{new.category}}</small></span>
     <div class="card">
         <div class="card-header">
             <a href="/articles/{{new.id}}">{{new.name}}</a>

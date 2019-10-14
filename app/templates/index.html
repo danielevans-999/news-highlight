@@ -1,20 +1,25 @@
-
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
 
 <!--style block-->
-{% block style %}
-{{super()}}
-<link type="text/css" rel="stylesheet"  href="{{url_for('filename',filename='css/index.css')}}">
+{% block styles %}
+{{ super() }}
+<link type="text/css" rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+
 {%endblock%}
 
 <!-- Content block -->
 {% block content %}
+<div class="news">
+  <div id="one" class="text-center">
+    <p>News the power of info</p>
+  </div>
+</div>
 <div class="container">
   <div class="row">
-    
-      {{macro.displayNewsList(news)}}
-    
-    </div>
-    </div>
+
+    {{macro.displayNewsList(news)}}
+
+  </div>
+</div>
 {% endblock%}
