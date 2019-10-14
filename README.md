@@ -17,7 +17,7 @@ This is an application that allows a user to view the top news sources and view 
 
 ## Installing 
 
-To view the application go to [click here]()
+To view the application go to [click here](https://kantenews.herokuapp.com/ )
 
 - Step 1: Clone this repo :git clone (https://github.com/danielevans-999/news-highlight)
 
