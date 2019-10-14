@@ -1,0 +1,14 @@
+
+{% macro displayNewsList(news_list) %}
+    {% for new in news_list %}
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <h3>{{new.name}}</h3>
+            <i>{{new.description}}</i>
+        </div>
+    </div>
+    </div>
+       
+    {% endfor %}
+{% endmacro %}
