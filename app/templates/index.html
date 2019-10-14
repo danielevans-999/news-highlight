@@ -3,7 +3,10 @@
 {% import 'macros.html' as macro%}
 
 <!--style block-->
-
+{% block style %}
+{{super()}}
+<link type="text/css" rel="stylesheet"  href="{{url_for('filename',filename='css/index.css')}}">
+{%endblock%}
 
 <!-- Content block -->
 {% block content %}
