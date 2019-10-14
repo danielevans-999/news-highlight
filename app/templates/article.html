@@ -1,0 +1,15 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+
+<!--styles block-->
+
+
+<!-- Content block -->
+{% block content %}
+<div class="container">
+  <div class="row">
+    {{macro.mine(artic)}}
+  </div>
+</div>
+
+{% endblock%}
