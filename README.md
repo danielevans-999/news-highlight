@@ -17,9 +17,9 @@ This is an application that allows a user to view the top news sources and view 
 
 ## Installing 
 
-To view the application go to [click here](https://github.com/danielevans-999/password-Locker)
+To view the application go to [click here]()
 
-- Step 1: Clone this repo :git clone (https://github.com/danielevans-999/password-Locker)
+- Step 1: Clone this repo :git clone (https://github.com/danielevans-999/news-highlight)
 
 - step 2: Open the repo using your text editor e.g atom or vscode
 
